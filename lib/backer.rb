@@ -8,8 +8,8 @@ attr_accessor :backed_projects
     @backed_projects = []
   end
   
-  def backed_projects
-    
+  def back_project(Project)
+    @backed_projects << Project
   end
 
 end
